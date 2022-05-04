@@ -9,4 +9,6 @@ while i<4:
 		print('密碼錯誤!')
 		if i < 3:
 			print('你還有', 3-i ,'次機會。')
+		else:
+			print('你已超過三次錯誤，將鎖定帳號')
 		i = i+1
